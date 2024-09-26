@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <form class="form-container">
+    <div class="form-head">CRUD APPLICATION</div>
+    <div class="form-body">
+      <div class="form-element">
+        <div class="form-label"><label>Name: </label> </div>
+        <div class="form-data"><input type="text" placeholder="Enter Name" id="name"></div>
+      </div>
+      
+      <div class="form-element">
+        <div class="form-label"><label>Email: </label> </div>
+        <div class="form-data"><input type="email" placeholder="Enter Email Id" id="email"></div>
+      </div>
+
+      <div class="form-element">
+        <div class="form-label"><label>Age: </label> </div>
+        <div class="form-data"><input type="number" placeholder="Enter Age" id="age"></div>
+      </div>
+
+      <div class="form-element">
+        <div class="form-label"><label>Address: </label> </div>
+        <div class="form-data"><input type="text" placeholder="Enter Address" id="address"></div>
+      </div>
+
+      <div class="form-element"></div>
+        <div class="form-data"><button value="Submit" id="submit" onclick="addData()">Add Data</button>
+                                           <button value="Update" id="update" >Update</button></div>
+      </div>
+  </form>
+
+  <div class="table-container">
+    <table class="table" id="table">
+       <thead>
+         <tr>
+           <th>Name</th>
+           <th>Email</th>
+           <th>Age</th>
+           <th>Address</th>
+           <th id="action">Action </th>
+         </tr>	
+       </thead>
+       <tbody>   
+         </tbody>
+     </table>
+ </div>
+
+ <script src="form.js"></script>
+</body>
+</html>

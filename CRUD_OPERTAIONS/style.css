@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #1a1929;
+    font-size: 20px;
+}
+
+
+.form-head{
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-body{
+  margin-top:30px;
+  height: auto;
+}
+
+.form-label{
+   margin-top: 10px;
+  margin-left: 600px;
+  margin-bottom: 5px;
+  font-weight:bold;
+}
+
+.form-data{
+  margin-left: 600px;
+  width: 70%;
+  height:30px;
+}
+
+.form-data input{
+  width:300px;
+  height:25px;
+  padding:2px;
+  padding-left: 3px;
+  border: 2px solid #000000;
+  border-radius:5px;
+}
+
+.form-data button{
+  background-color: #09892dcd;
+  color: #ffffff;
+  padding: 7px;
+  margin-top:20px;
+  border-radius: 5px;
+  border-style: none;
+  margin-left:50px;
+}
+ 
+#update{
+  display: none;
+  background-color: #4087dd;
+  padding: 7px;
+  border: 2px solid #ffffff;
+}
+
+/* table styles */
+.table {
+  cursor: pointer;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  min-width: 800px;
+
+}
+
+.table-container {
+  margin-left: 400px;
+  margin-bottom: 100px;
+  background-color: #000000;
+  max-width: 800px;
+}
+
+.table td {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border: 1px solid ;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.table th {
+  border: 1px solid ;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.table #action{
+  width: 200px;
+}
+
+.table tr {
+  background-color: #cac8c8;
+  color: #000000;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.table tr td .delete-btn{
+  margin:5px;
+  padding: 5px 7px;
+  border-radius: 5px;
+  border:2px solid #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.table tr td #delete{
+  background-color: #af2929;
+  transition: background-color 0.3s;
+}
+
+.table tr td #edit{
+  background-color: #5fb046;
+  transition: background-color 0.3s;
+}
+
+.table tr td #delete:hover{
+  background-color: #a01212;
+}
+
+.table tr td #edit:hover{
+  background-color: #0abc28;
+}
+
+
+
